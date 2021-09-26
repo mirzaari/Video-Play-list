@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+
+
+
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:src="@drawable/cover"
+        android:scaleType="centerCrop">
+
+    </ImageView>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+    <LinearLayout
+        android:id="@+id/song1"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="#ECECEC"
+        >
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="130dp"
+            android:layout_height="160dp"
+            android:src="@drawable/miz"
+            android:scaleType="center"
+            ></ImageView>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="কেয়ামত দিন সকালবেলা ঘটনা।Mizanur Rahman Azhari।"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp"
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="কেআসসালামু আলাইকুম ইসলাম প্রচারে আমাদের একমাত্র উদ্দেশ্য আমাদের চ্যানেলটি সাবস্ক্"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="5dp"
+                android:maxLines="2"
+                ></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Duratio : 05:00"
+                android:textSize="10dp"
+                android:textStyle="normal"
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp"
+                ></TextView>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/song2"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="#ECECEC"
+        >
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="160dp"
+            android:src="@drawable/m2"
+            android:scaleType="centerCrop"
+            ></ImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="করসূল (সাঃ) এর মেরাজের ঘটনা ও নবীজীর জীবনী বার বার শুনতে মন চাইবে"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp"
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="করসূল (সাঃ) এর মেরাজের ঘটনা ও নবীজীর জীবনী বার বার শুনতে মন চাইবে | মিজানুর রহমান আজহারী"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="5dp"
+                android:maxLines="2"
+                ></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Duratio : 05:00"
+                android:textSize="10dp"
+                android:textStyle="normal"
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp"
+                ></TextView>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/song3"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="#ECECEC"
+        >
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="160dp"
+            android:src="@drawable/m3"
+            android:scaleType="centerCrop"
+            ></ImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ইব্রাহিম আঃ এর জীবনী | মিজানুর রহমান আজহারী ওয়াজ | Mizanur Rahman Azhari Waz | Waj | Bangla Waz।"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp"
+                android:maxLines="2"
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Watch Mizanur Rahman Azhari Waz “Story of Ibrahim Prophet – ইব্রাহিম আঃ এর জীবনী”. Watch Islamic bangla waz mahfil and get any kind of life solution from islamic waz. Islam is the complete code of life. In this bangla waz mahfil video the lecturer Mizanur Rahman Azhari tell্"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="5dp"
+                android:maxLines="2"
+                ></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Duratio : 05:00"
+                android:textSize="10dp"
+                android:textStyle="normal"
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp"
+                ></TextView>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/song4"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="#ECECEC"
+            >
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="130dp"
+                android:layout_height="160dp"
+                android:src="@drawable/ima"
+                android:scaleType="center"
+                ></ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="কেয়ামত দিন সকালবেলা ঘটনা।Mizanur Rahman Azhari।"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="10dp"
+                    ></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="কেআসসালামু আলাইকুম ইসলাম প্রচারে আমাদের একমাত্র উদ্দেশ্য আমাদের চ্যানেলটি সাবস্ক্"
+                    android:textSize="15dp"
+                    android:textStyle="normal"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:maxLines="2"
+                    ></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Duratio : 05:00"
+                    android:textSize="10dp"
+                    android:textStyle="normal"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="10dp"
+                    ></TextView>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
